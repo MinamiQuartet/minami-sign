@@ -137,6 +137,6 @@ PRODUCT_CERTIFICATE_OVERRIDES += \
     WebAppService:com.android.webapp.certificate.override \
     WifiDialog:com.android.wifi.dialog.certificate.override
 
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/evolution-priv/keys/releasekey
-PRODUCT_EXTRA_RECOVERY_KEYS += vendor/evolution-priv/keys/signed
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/custom-priv/keys/releasekey
+PRODUCT_EXTRA_RECOVERY_KEYS += vendor/custom-priv/keys/signed
 PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES := $(dir $(PRODUCT_DEFAULT_DEV_CERTIFICATE))
